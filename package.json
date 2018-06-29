@@ -1,0 +1,25 @@
+{
+  "name": "reactDemo",
+  "version": "0.0.1",
+  "description": "Basic Demo for React Tutorial",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "reactDemo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ydesanti/reactDemo.git"
+  },
+  "keywords": [
+    "a5f1be0b662b27958805afee03fb0ef7727f6b28"
+  ],
+  "author": "Yohan Desanti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ydesanti/reactDemo/issues"
+  },
+  "homepage": "https://github.com/ydesanti/reactDemo#readme",
+  "devDependencies": {
+    "eslint": "^5.0.1"
+  }
+}
