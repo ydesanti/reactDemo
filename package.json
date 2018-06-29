@@ -1,25 +1,35 @@
 {
-  "name": "reactDemo",
+  "name": "react-demo",
   "version": "0.0.1",
   "description": "Basic Demo for React Tutorial",
   "main": "./src/index.js",
   "scripts": {
-    "test": "reactDemo"
+    "test": "reactDemo",
+    "transpile": "babel src/ --presets react",
+    "lint": "eslint --fix src/**/*.js",
+    "lintInit": "eslint --init"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ydesanti/reactDemo.git"
   },
-  "keywords": [
-    "a5f1be0b662b27958805afee03fb0ef7727f6b28"
-  ],
   "author": "Yohan Desanti",
   "license": "ISC",
+  "pre-commit": [
+    "lint"
+  ],
   "bugs": {
     "url": "https://github.com/ydesanti/reactDemo/issues"
   },
   "homepage": "https://github.com/ydesanti/reactDemo#readme",
   "devDependencies": {
-    "eslint": "^5.0.1"
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.0.1",
+    "eslint-config-google": "^0.9.1",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "react": "^16.4.1"
   }
 }
